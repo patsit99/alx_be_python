@@ -1,4 +1,3 @@
-# shopping_list_manager.py
 
 def display_menu():
     print("\nShopping List Manager")
@@ -8,12 +7,12 @@ def display_menu():
     print("4. Exit")
 
 def main():
-    shopping_list = []  # Empty shopping list
+    shopping_list = []  
 
     while True:
         display_menu()
         try:
-            choice = int(input("Enter your choice (1-4): "))  # Get user choice as number
+            choice = int(input("Enter your choice (1-4): "))
         except ValueError:
             print("Invalid input! Please enter a number between 1 and 4.")
             continue
